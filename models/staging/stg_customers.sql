@@ -17,7 +17,7 @@ renamed as (
         name as customer_name
 
     from source
-
+    where name is not null
 )
 
 select * from renamed
